@@ -98,7 +98,7 @@ def main():
     st.title("Conversor Universal")
 
     # Seleccionar la categoría de conversión
-    categoria = st.selectbox("Selecciona una categoría:", ["Temperatura", "Longitud", "Peso/masa", "Volumen", "Tiempo", "Velocidad","\n
+    categoria = st.selectbox("Selecciona una categoría:", ["Temperatura", "Longitud", "Peso/masa", "Volumen", "Tiempo", "Velocidad",
                                                           "Área", "Energía", "Presión","Tamaño de datos"])
 
     # Seleccionar las unidades de conversión dentro de la categoría seleccionada
